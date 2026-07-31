@@ -1,0 +1,120 @@
+.contact-section{
+padding:80px 10%;
+background:var(--gray);
+transition:.3s;
+}
+
+.contact-section h2{
+text-align:center;
+font-size:40px;
+color:var(--secondary);
+margin-bottom:40px;
+}
+
+.contact-section form{
+max-width:650px;
+margin:auto;
+display:flex;
+flex-direction:column;
+gap:20px;
+}
+
+.contact-section input,
+.contact-section textarea{
+width:100%;
+padding:15px;
+font-size:16px;
+font-family:inherit;
+border:1px solid #d1d5db;
+border-radius:10px;
+outline:none;
+background:var(--white);
+color:var(--text);
+transition:.3s;
+}
+
+.contact-section input:focus,
+.contact-section textarea:focus{
+border-color:var(--primary);
+box-shadow:0 0 0 3px rgba(37,99,235,.15);
+}
+
+.contact-section textarea{
+resize:vertical;
+min-height:150px;
+}
+
+.contact-section button{
+padding:15px;
+font-size:18px;
+font-weight:600;
+background:var(--primary);
+color:var(--white);
+border:none;
+border-radius:10px;
+cursor:pointer;
+transition:.3s;
+}
+
+.contact-section button:hover{
+background:#1d4ed8;
+transform:translateY(-2px);
+}
+
+/* Dark Mode */
+
+body.dark-mode .contact-section{
+background:#111827;
+}
+
+body.dark-mode .contact-section h2{
+color:var(--white);
+}
+
+body.dark-mode .contact-section input,
+body.dark-mode .contact-section textarea{
+background:#1f2937;
+color:var(--white);
+border:1px solid #374151;
+}
+
+body.dark-mode .contact-section input::placeholder,
+body.dark-mode .contact-section textarea::placeholder{
+color:#9ca3af;
+}
+
+body.dark-mode .contact-section input:focus,
+body.dark-mode .contact-section textarea:focus{
+border-color:#60a5fa;
+box-shadow:0 0 0 3px rgba(96,165,250,.2);
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.contact-section{
+padding:60px 6%;
+}
+
+.contact-section h2{
+font-size:32px;
+margin-bottom:30px;
+}
+
+.contact-section form{
+gap:16px;
+}
+
+.contact-section input,
+.contact-section textarea{
+font-size:15px;
+padding:14px;
+}
+
+.contact-section button{
+font-size:16px;
+padding:14px;
+}
+
+}
