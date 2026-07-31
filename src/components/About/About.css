@@ -23,8 +23,8 @@ margin-bottom:25px;
 }
 
 .profile-figure img{
-width: 600px;
-height: 600px;
+width: 550px;
+height: 550px;
 border-radius:50%;
 object-fit:cover;
 border:6px solid var(--white);

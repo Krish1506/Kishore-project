@@ -27,9 +27,11 @@ function About() {
       </figure>
 
       <p>
-        I love creating responsive and modern websites using HTML, CSS and
-        JavaScript. I'm continuously learning new technologies to become a Full
-        Stack Developer.
+       Hello! I'm Kishore, a passionate web developer who enjoys creating responsive and user-friendly websites.
+
+      I love learning new technologies and improving my skills through projects and practice.
+
+      My goal is to become a full-stack developer and build modern web applications.
       </p>
     </section>
   );
