@@ -28,9 +28,13 @@ function About() {
 
       <p>
        Hello! I'm Kishore, a passionate web developer who enjoys creating responsive and user-friendly websites.
+      </p>
 
-      I love learning new technologies and improving my skills through projects and practice.
+      <p>
+       I love learning new technologies and improving my skills through projects and practice.
+      </p> 
 
+      <p> 
       My goal is to become a full-stack developer and build modern web applications.
       </p>
     </section>
